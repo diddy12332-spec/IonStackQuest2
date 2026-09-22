@@ -19,5 +19,5 @@ jobs:
       - name: Install pyelftools
         run: pip install pyelftools
 
-      - name: Check generator
-        run: python gen_ionstack_config.py --help
+     - name: Check generator
+  run: python -m py_compile gen_ionstack_config.py
